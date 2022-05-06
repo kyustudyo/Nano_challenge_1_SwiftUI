@@ -21,7 +21,7 @@ struct Landmark: Hashable, Codable, Identifiable {
         case basic = "Basic"
     }
 
-    var imageName: String//private is ok but i have to use imageName from the outside.
+    var imageName: String//private is ok but i have to use imageName outside.
     var image: Image {//Rather than used with imageName, property image is used.
         Image(imageName)
     }
