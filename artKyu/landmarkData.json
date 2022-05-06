@@ -1,0 +1,160 @@
+[
+    {
+        "name": "송혜교",
+        "category": "Human",
+        
+        "id": 1001,
+        "isFeatured": false,
+       
+        "coordinates": {
+            "longitude": -116.166868,
+            "latitude": 34.011286
+        },
+        "description": "Su",
+        "imageName": "song"
+    },
+    {
+        "name": "Basic",
+        "category": "Basic",
+        
+        "id": 1002,
+        "isFeatured": false,
+       
+        "coordinates": {
+            "longitude": -116.166868,
+            "latitude": 34.011286
+        },
+        "description": "Su",
+        "imageName": "basic"
+    },
+    {
+        "name": "김태리",
+        "category": "Human",
+        
+        "id": 1003,
+        "isFeatured": false,
+       
+        "coordinates": {
+            "longitude": -116.166868,
+            "latitude": 34.011286
+        },
+        "description": "Su",
+        "imageName": "kim1"
+    },
+    {
+        "name": "김태리",
+        "category": "Human",
+        
+        "id": 1004,
+        "isFeatured": false,
+       
+        "coordinates": {
+            "longitude": -116.166868,
+            "latitude": 34.011286
+        },
+        "description": "Su",
+        "imageName": "kim2"
+    },
+    {
+        "name": "민효린",
+        "category": "Human",
+        
+        "id": 1005,
+        "isFeatured": false,
+       
+        "coordinates": {
+            "longitude": -116.166868,
+            "latitude": 34.011286
+        },
+        "description": "Su",
+        "imageName": "min"
+    },
+    {
+        "name": "박보영",
+        "category": "Human",
+        
+        "id": 1006,
+        "isFeatured": false,
+       
+        "coordinates": {
+            "longitude": -116.166868,
+            "latitude": 34.011286
+        },
+        "description": "Su",
+        "imageName": "park1"
+    },
+    {
+        "name": "원빈",
+        "category": "Human",
+        
+        "id": 1007,
+        "isFeatured": false,
+       
+        "coordinates": {
+            "longitude": -116.166868,
+            "latitude": 34.011286
+        },
+        "description": "Su",
+        "imageName": "park2"
+    },
+    {
+        "name": "베컴",
+        "category": "Human",
+        
+        "id": 1008,
+        "isFeatured": false,
+       
+        "coordinates": {
+            "longitude": -116.166868,
+            "latitude": 34.011286
+        },
+        "description": "Su",
+        "imageName": "back"
+    },
+    {
+        "name": "디카프리오",
+        "category": "Human",
+        
+        "id": 1009,
+        "isFeatured": false,
+       
+        "coordinates": {
+            "longitude": -116.166868,
+            "latitude": 34.011286
+        },
+        "description": "Su",
+        "imageName": "di"
+    },
+    {
+        "name": "꼬마",
+        "category": "Human",
+        
+        "id": 1010,
+        "isFeatured": false,
+       
+        "coordinates": {
+            "longitude": -116.166868,
+            "latitude": 34.011286
+        },
+        "description": "Su",
+        "imageName": "ko"
+    },
+    {
+        "name": "개",
+        "category": "Basic",
+        
+        "id": 1007,
+        "isFeatured": false,
+       
+        "coordinates": {
+            "longitude": -116.166868,
+            "latitude": 34.011286
+        },
+        "description": "Su",
+        "imageName": "dog"
+    }
+
+
+
+
+]
