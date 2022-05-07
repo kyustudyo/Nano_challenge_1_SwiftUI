@@ -9,8 +9,8 @@ struct LandmarkDetail: View {
     var landmark: Landmark
 //    @State var percentage: CGFloat = 0//If it starts at 0.5, the results are different.
 //    @Binding var goToRoot : Bool
-    @State var animateProperties = AnimateProperties()
-    @State var answerInfo : AnswerInfo = AnswerInfo()
+    @State private var animateProperties = AnimateProperties()
+    @State private var answerInfo : AnswerInfo = AnswerInfo()
    
 //    var index: Int {
 //        modelData.landmarks.firstIndex(where: { $0.id == landmark.id })!

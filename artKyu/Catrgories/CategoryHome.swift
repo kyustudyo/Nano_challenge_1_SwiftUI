@@ -11,9 +11,9 @@ struct CategoryHome: View {
     @EnvironmentObject var modelData: ModelData
     @EnvironmentObject var appState : AppState
     @State private var showingProfile = false
-    @State var animateProperties: AnimateProperties = AnimateProperties()
-    @State var opacity:Double = 0.3
-    @State var see: Bool = false
+    @State private var animateProperties: AnimateProperties = AnimateProperties()
+    @State private var opacity:Double = 0.3
+    @State private var see: Bool = false
     
     var count : Int {
         modelData.landmarks.filter { landmark in

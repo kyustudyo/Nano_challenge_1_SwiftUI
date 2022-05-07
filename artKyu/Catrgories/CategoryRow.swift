@@ -19,7 +19,7 @@ struct CategoryRow: View {
         return Text(str)
     }
     
-    @State var showNav = false
+    @State private var showNav = false
     var body: some View {
         VStack(alignment: .leading) {
 

@@ -10,10 +10,10 @@ import SwiftUI
 struct LandmarkSecondStatement: View {
 //    let name: String
     let landmark: Landmark
-    @State var animateProperties: AnimateProperties = AnimateProperties()
+    @State private var animateProperties: AnimateProperties = AnimateProperties()
 //    @Binding var goToRoot : Bool
 //    @EnvironmentObject var modelData: ModelData
-    @State var needsToNextTryView : Bool = false
+    @State private var needsToNextTryView : Bool = false
 //    var index : Int {
 //        modelData.landmarks.firstIndex { landmark in
 //            landmark.id == self.landmark.id

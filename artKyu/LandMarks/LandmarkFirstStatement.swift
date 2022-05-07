@@ -9,8 +9,8 @@ import SwiftUI
 
 //After learning about animation, the code needs to be upgraded.
 struct LandmarkFirstStatement: View {
-    @State var animateProperties: AnimateProperties = AnimateProperties()
-    @State var answer : String = ""
+    @State private var animateProperties: AnimateProperties = AnimateProperties()
+    @State private var answer : String = ""
     
     @Binding var answerInfo : AnswerInfo
     @EnvironmentObject var modelData : ModelData

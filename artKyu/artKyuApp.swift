@@ -16,7 +16,7 @@ class AppState: ObservableObject {
 @main
 struct artKyuApp: App {
     @StateObject private var modelData = ModelData()
-    @StateObject var appState = AppState(hasOnboarded: false)
+    @StateObject private var appState = AppState(hasOnboarded: false)
     var body: some Scene {
         
         WindowGroup {
