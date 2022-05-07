@@ -10,7 +10,7 @@ import SwiftUI
 struct CategoryItem: View {
     var landmark: Landmark
     @EnvironmentObject var modelData : ModelData
-    var index : Int {
+    private var landmarkIndex : Int {
         modelData.landmarks.firstIndex { landmark in
             landmark.id == self.landmark.id
         } ?? 0
@@ -19,7 +19,7 @@ struct CategoryItem: View {
         if landmark.category == .basic {
             return ""
         }
-        return modelData.landmarks[index].isFeatured == true ? landmark.name : "?"
+        return modelData.landmarks[landmarkIndex].isFeatured == true ? landmark.name : "?"
     }
     var body: some View {
         VStack(alignment: .leading) {
@@ -37,8 +37,4 @@ struct CategoryItem: View {
     }
 }
 
-//struct CategoryItem_Previews: PreviewProvider {
-//    static var previews: some View {
-//        CategoryItem(landmark: ModelData().landmarks[0])
-//    }
-//}
+

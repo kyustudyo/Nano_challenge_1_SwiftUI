@@ -89,7 +89,8 @@ struct LandmarkFirstStatement: View {
 struct LandmarkFirstStatement_Previews: PreviewProvider {
     static let modelData = ModelData()
     static var previews: some View {
-        LandmarkFirstStatement(animateProperties: .init(iPaintedPercentage: 1, whoIsPercentage: 1, iPaintedComplete: true, whoIsComplete: true), answer: "송혜교", answerInfo: .constant(AnswerInfo(isReply: true, answer: "송혜교")), landmark: modelData.landmarks[0])
+        LandmarkFirstStatement(answerInfo: .constant(AnswerInfo()), landmark: modelData.landmarks[0])
+            .environmentObject(modelData)
     }
 }
 
