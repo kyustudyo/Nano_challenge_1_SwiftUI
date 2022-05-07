@@ -20,7 +20,7 @@ struct LandmarkSecondStatement: View {
 //        } ?? 0
 //    }
     let answerInfo: AnswerInfo
-    var text : Text {
+    var endMent : Text {
         let str = (answerInfo.answer == landmark.name) ? "정답 !\n비슷한가요?" : "사실은\n\(landmark.name) 예요"
         return Text(str)
     }
@@ -35,7 +35,7 @@ struct LandmarkSecondStatement: View {
                 .clipped()
             
             HStack{
-                text
+                endMent
                     .font(.system(size: 40, weight: .regular))
                     .padding()
                 
@@ -54,18 +54,7 @@ struct LandmarkSecondStatement: View {
             } label: {
 
             }
-//            .onAppear {
-//                print("3,\(modelData.landmarks[0].isFeatured)")
-//            }
-            
-            
-
         }
-        .onAppear {
-            print("ggggg")
-        }
-        
-        
     }
 }
 

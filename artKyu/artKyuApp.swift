@@ -13,6 +13,7 @@ class AppState: ObservableObject {
         self.hasOnboarded = hasOnboarded
     }
 }
+
 @main
 struct artKyuApp: App {
     @StateObject private var modelData = ModelData()
