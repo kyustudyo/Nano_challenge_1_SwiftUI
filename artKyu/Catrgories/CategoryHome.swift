@@ -13,7 +13,7 @@ struct CategoryHome: View {
     @State private var showingProfile = false
     @State private var animateProperties: AnimateProperties = AnimateProperties()
     @State private var opacity:Double = 0.3
-    @State private var see: Bool = false
+    @State private var showingPoet: Bool = false
     
     var count : Int {
         modelData.landmarks.filter { landmark in
@@ -43,14 +43,14 @@ struct CategoryHome: View {
                 
                         Text(count == 0 ? "시\n보실래요?" : "\(count)개나\n봐주시다니\n감사해요")
                             .onTapGesture {
-                                see.toggle()
+                                showingPoet.toggle()
                             }
                             .opacity(opacity)
                             .font(.system(size: 25, weight: .regular))
                             .padding()
                     }
 
-                .sheet(isPresented: $see) {
+                .sheet(isPresented: $showingPoet) {
                     Image("long")
                         .resizable()
                         .scaledToFit()
@@ -61,7 +61,7 @@ struct CategoryHome: View {
                         .background(Color.white)
                         .onAppear{
                             DispatchQueue.main.asyncAfter(deadline: .now()+2, execute: {
-                                see = false
+                                showingPoet = false
                             })
                         }
                     
